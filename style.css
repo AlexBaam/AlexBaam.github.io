@@ -1,0 +1,152 @@
+/* Header styling (same as before) */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 1rem 2rem;
+}
+
+/* Navigation container */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+/* Button-style links */
+.nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover animation */
+.nav-button:hover {
+    background-color: #005fa3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ==== Base Reset and Typography ==== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e1e; /* Dark gray background */
+    color: #f0f0f0;            /* Light text */
+}
+
+/* ==== Header/Navbar Styling ==== */
+header {
+    background-color: #141414; /* Even darker gray */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Flex layout for nav */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 1rem 2rem;
+}
+
+/* Logo */
+.logo a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #d1bfff; /* Soft purple accent */
+}
+
+/* Nav links layout */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-left: auto;
+}
+
+/* Button-like nav links */
+.nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2c2c2c;      /* Darker gray button */
+    color: #f0f0f0;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: 1px solid transparent;
+}
+
+/* Hover effect with purple accent */
+.nav-button:hover {
+    background-color: #4b2d71;      /* Deep purple */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(75, 45, 113, 0.4); /* Purple glow */
+    border-color: #8a60d4;
+}
+
+footer {
+    background-color: #141414;
+    color: #bbb;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 0.9rem;
+    border-top: 1px solid #2c2c2c;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #8a60d4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #d1bfff;
+}
+
+.about-section {
+    padding: 3rem 2rem;
+    max-width: 800px;
+    margin: auto;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+.about-section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #d1bfff;
+}
+
+.about-section h2 {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    color: #b388eb;
+}
+
+.skills-list {
+    list-style: square inside;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+    color: #ccc;
+}
